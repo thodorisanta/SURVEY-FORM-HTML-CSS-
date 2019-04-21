@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+}
+
+body{
+  background: grey;
+  text-align: center;
+  font-size: 15px;
+}
+
+h1{
+  padding: 20px;
+}
+
+#outer-form{
+  background-color: white;
+  margin: 0 auto;
+  width: 65%;
+  padding: 10px;
+  padding-top: 30px;
+  background-color: #eff2f9;
+  border-radius: 1.5%;
+}
+
+.labels{
+  display: inline-block;
+  text-align: right;
+  width: 45%;
+  margin-top: 22px;
+  margin-right: 20px;
+}
+
+.answers{
+  display: inline-block;
+  text-align: left;
+  width: 43%;
+}
+
+.input-field{
+  width: 200px;
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+}
+
+.radioButtons, .checkBoxes{
+  display: flex;
+  flex-direction: column;
+}
+
+#comments {
+  vertical-align: text-top;
+}
+
+#submit{
+  margin: 50px;
+  background-color: skyblue;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10%;
+}
